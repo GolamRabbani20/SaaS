@@ -11,3 +11,7 @@ p = pathlib.PureWindowsPath('c:/Downloads/pathlib.tar.gz')
 p.with_name('setup.py')
 
 print(pathlib.Path.home().is_absolute())
+
+l = [23]
+l += [34]
+print(l)
